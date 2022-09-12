@@ -40,9 +40,8 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-    public static String prajogt001() {
-        return printLabMessage("Greetings", "Tim", false,
-                "Welcome to your first lab!");
+    public static String prajogit(){
+        return printLabMessage("Greetings", "Tim", false, "Welcome to your first lab!");
     }
 
     /**
@@ -63,8 +62,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-        String message = prajogt001();
-        System.out.println(message);
+
+        System.out.println(prajogit());
 
 
     }
