@@ -5,6 +5,9 @@
  */
 
 import org.junit.*;
+import org.junit.rules.Timeout;
+
+import java.sql.Time;
 
 import static org.junit.Assert.*;
 
@@ -30,4 +33,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 1000)
+    public void testPrajogt001() {
+        String expected = "Greetings! My name is Tim! I like dogs more than cats!" +
+                " Welcome to your first lab!";
+        String actual = IntroLab.prajogt001();
+        assertEquals(expected, actual);
+
+    }
 }
